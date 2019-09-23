@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+            name="jdbc/userdb"
+            type="javax.sql.DataSource"
+            auth="Container"
+            factory="com.alibaba.druid.pool.DruidDataSourceFactory"
+            diverClassName="com.mysql.jdbc.Driver"
+            username="root"
+            password="root"
+            url="jdbc:mysql://localhost:3306/userdb"
+            filters="stat,wall"
+    />
+</Context>
